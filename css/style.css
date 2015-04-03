@@ -16,10 +16,10 @@
 	{
 		background-color:		#183026;
 		background-image:		url('images/IMG_2336.jpg');
-		background-repeat:		repeat,								no-repeat;
-		background-size:		auto,								cover;
-		background-position: 	top left,							center 0;
-		background-attachment:	fixed,								fixed;
+		background-repeat:		no-repeat;
+		background-size:		cover;
+		background-position: 	center 0;
+		background-attachment:	fixed;
 	}
 
 		body.is-scroll
