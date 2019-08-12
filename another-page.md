@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: kelly
 ---
 
 ## Welcome to another page

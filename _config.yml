@@ -1,5 +1,7 @@
-title: Leap Day theme
-description: Leap Day is a theme for GitHub Pages.
+title: Kelly Hsiao-Ching Su
+description: Kelly's a CS master student seeking 2020 new grad position
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-leap-day
+github:
+      resume: ./2020_NewGrad_HsiaoChingSu_Gatech.pdf
