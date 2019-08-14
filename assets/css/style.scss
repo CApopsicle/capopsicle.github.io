@@ -15,8 +15,14 @@ header {
   margin-top: 6px;
   margin-left: -325px;
   background: url(../images/octocat-logo.svg);
+}
 
-  &:hover {
-    fill: black;
-  }
+#linkedin-logo {
+  position:fixed;
+  height: 36px;
+  width: 36px;
+  left: 50%;
+  margin-top: 6px;
+  margin-left: -275px;
+  background: url(../images/social-linkedin-logo.svg);
 }

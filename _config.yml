@@ -3,5 +3,5 @@ description: Kelly's a CS master student seeking 2020 new grad position
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-leap-day
-github:
+default:
       resume: ./2020_NewGrad_HsiaoChingSu_Gatech.pdf

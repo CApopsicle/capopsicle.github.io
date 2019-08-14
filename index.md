@@ -2,14 +2,20 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
+[Link to another page](./keep-it-real.html).
 
 Hello, I am Kelly.
 I am a master student at Georgia Tech, majoring in computer science, specializing in human-computer interaction. 
 
 My aspiration is to become a master in both design and engineering field. I love being creative, making creations from 0 to 1 on my own, and coding. Working closely with designers, I love interface development the most. I had experiences working as a frontend engineer with substantial knowledge about JavaScript, CSS, and HTML, and I like challenging myself to build interfaces with complex user interactions and manipulations
+
+* * *
+
+### Skill & Language Proficiency
+
+- Programing: JavaScript, Python, Java, R(statistical)
+- Framework & Tool: React.js, Vue.js, D3.js, Node.js, Express.js, Jest, webpack, MongoDB, MySQL, OpenCV, selenium, Jenkins, git
+- Software: Illustrator, Photoshop, Adobe XD, Sketch, Tableau
 
 * * *
 
@@ -62,89 +68,54 @@ My aspiration is to become a master in both design and engineering field. I love
 
 ### Projects
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+<dt>Texture Synthesis - Atlanta, GA</dt>
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+######  Jan. 2019
 
+- Created a web applet that generates the texture of an input image to fill bigger specified dimensions using OpenProcessing and OpenCV
+- Implemented adding randomness to the output image to give the output synthesis a more natural look
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+<dt>Movie Dialogues Visualization - Atlanta, GA</dt>
 
+######  Aug. 2018 - Dec. 2018
 
-### Here is an unordered list:
+- Created a visualization allowing users to explore conversational themes and conversation ratios between sexes across decades and genres
+- Preprocessed the data using Python, generated questions and hypotheses about the dataset and verified them by Tableau
+- Rated as one of the top projects in class and became a sampler that the professor wants to show off on his website to future classes
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+<dt>Hack The Library - Taipei, Taiwan</dt>
 
-### And an ordered list:
+######  Feb. 2015 - Dec. 2015
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+- Reformed and developed the user interface of the seat arrangement system of studying area in NTU’s library by D3.js and SVG, making the interface more informative and intuitive
+- Conducted user researches with a team, including interviewing users and collecting 700+ questionnaires
 
-### And a nested list:
+<dt>Washing machine monitoring and notifying system - Taipei, Taiwan</dt>
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+######  Dec. 2015 - Feb. 2016
 
-### Small image
+- Designed a web app that displays washing machine status and implemented signup, subscription and text message notifications functions for 400 residents in the dorm
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+* * *
 
-### Large image
+### Conference Publication
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+- Yi-Tien Lin; Hsiao-Ching Su; I-Wen Lo; Po-Lin Chou; [“BringUBus: Matching Buses to Passengers with Low Mobility,”](https://dl.acm.org/citation.cfm?id=2890640) Proceedings of the 2016 ACM CHI Conference Extended Abstracts on Human Factors in Computing Systems, San Jose, CA, USA, May 7-12, 2016; *Honorable Mention for ACM CHI Student Design Competition*
+
+* * *
+
+### Volunteer Experience
+
+<dt>HackNTU - Director of HackCampus -  Taipei, Taiwan</dt>
+
+######  Nov. 2014 - Aug. 2015
+
+- Arranged a 3-day hackathon with 60+ volunteers in 9 departments, attracted over 1000+ nationwide students to participate
+
+<dt>JSDC Taiwan - Photographer -  Taipei, Taiwan</dt>
+
+######  Oct. 2014
+
+- Documented two-day event of 2014 JavaScript Developer Conference; [JSDC 2014 album](https://www.flickr.com/photos/jsdc2014/sets/72157648408915008/)
 
 
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
