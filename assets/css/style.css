@@ -783,12 +783,11 @@ nav {
         color: #999; }
 
 footer {
-  width: 180px;
-  position: fixed;
+  width: 300px;
+  position: absolute;
   left: 50%;
-  margin-left: -530px;
-  bottom: 20px;
-  text-align: right;
+  margin-left: -293px;
+  bottom: -48px;
   line-height: 16px; }
 
 @media print, screen and (max-width: 1060px) {
