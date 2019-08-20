@@ -58,7 +58,76 @@
 <h3 id="the-problem">The Problem</h3>
 <p>University dorms are not an ideal place for living, there are no private bedrooms, the insulation is pretty bad, and there’s a limited amount of house appliances. In NTU girl’s dorm, we had 100 girls using only 2 washing machines. Washing clothes is a painful experience. </p>
 
-<p>From this user pain point, comes this project of designing and implementation of a monitoring system for washing machines in NTU girl’s dorm. Our system aims to display the status of every washing machine in the girl’s dorm. We enabled sign-in, subscription, and text message notification for users. A user of our service can subscribe to a certain washing machine on our webpage, and she can get a text notification when that machine finishes its washing schedule.</p>
+<p>From this user pain point, comes this project of designing and implementation of a monitoring system for washing machines in NTU girl’s dorm. Our system aims to display the status of every washing machine in the girl’s dorm. We enabled <strong>sign-in</strong>, <strong>subscription</strong>, and <strong>text message notification</strong> for users. A user of our service can subscribe to a certain washing machine on our webpage, and she can get a text notification when that machine finishes its washing schedule.</p>
+
+<p><img src="https://i.imgur.com/BOvNdWa.png" alt="image1" />
+The interface of home page showing the two washing machines and their status</p>
+
+<h3 id="scenario">Scenario</h3>
+<p>Amy is in her junior year at NTU, and she lives in the girl’s 1st dormitory. She wants to do her laundry on a Saturday morning. However, the 2 washing machines on the 2nd floor are currently being used. One of them will finish washing in 30 minutes, and the other in 15 minutes. Amy takes the heavy laundry back to her room. However, when she goes again to the laundry room 20 minutes later, the machine is being used by another new user, and Amy has to keep on waiting. In addition, there’s a big pile of washed clothes sitting on top of a washing machine, and some of them are scattered on the floor. These are the clothes of the previous user, and they are taken out and piled up by the new user. Amy feels sorry for that previous user because her clothes are now dirty again. Yet, if Amy wants to wash her clothes in a hurry and the previous user’s clothes occupy the washing machine, she may do the same thing.</p>
+
+<p><img src="https://i.imgur.com/aBOAdqf.jpg" alt="image2" />
+The laundry room with a pile of clothes on top of a washing machine</p>
+
+<p>From our personal experiences and talking to several of the residents, we had several problems with our washing clothes process</p>
+
+<ul>
+  <li>There are too many students for only 2 washing machines.  During the busy hours, it’s hard to get access to a washing machine.</li>
+  <li>The remaining time displayed on the machine is inaccurate.</li>
+  <li>People forget to pick up their clothes when they are done.</li>
+</ul>
+
+<h3 id="design-alternatives">Design Alternatives</h3>
+<h3 id="system-to-detect-vibrations">System to detect vibrations</h3>
+<p>The first approach we had was using sensors that detect vibrations in the washing machine with Arduino. However, the sensors we had were too sensitive. Therefore, they could not differentiate between subtle and excessive vibrations.</p>
+
+<p><img src="https://i.imgur.com/997jZ2e.jpg" alt="image3" /></p>
+
+<h3 id="monitoring-electrical-energy">Monitoring electrical energy</h3>
+<p>We tried to look for other quantifiable data that discriminate between the different washing machine statuses (<strong>water-in</strong>, <strong>rinsing</strong>, <strong>water-out</strong>, <strong>spinning</strong>). After several trial and errors, we found that the electrical energy varies between these statuses.</p>
+
+<p><img src="https://i.imgur.com/XdAnbnT.jpg" alt="image4" />
+Variation of electrical energy in the different states</p>
+
+<p>We then found a smart home appliance that corresponds to our needs. It was a smart plug made for monitoring power consumptions, and it provides data on the electrical energy consumed. We contacted the company of this smart plug and proposed our ideas to potentially collaborate with them.</p>
+
+<p><img src="https://i.imgur.com/edvYfNf.jpg" alt="image5" />
+The architecture of our system</p>
+
+<p>To distinguish between the states based on the energy consumption, we used machine learning to train a decision tree model to predict the current progress and status synchronously. We collected 3-day electrical energy data from girl’s dorm laundry room (2 machines) as our training data and ran our model.</p>
+
+<p>However, our model had low precision because there was irregular usage of the washing machine. For example, users keep opening the lid of the washing machine to add more clothes, or sometimes the electric power gets tripped. To fix this, we stored the last active stage value (water-in, rinsing, water-out, spinning) of the last minute since minute is our time unit. This gave us a much higher accuracy.</p>
+
+<h3 id="interface-design">Interface Design</h3>
+<p>In the main panel of our interface, we listed all the washing machines with their status, progress bar (in %) and the overall washing schedule. By logging in and clicking on the subscribe button of a certain machine, the user will get a text message when the current washing schedule is complete.</p>
+
+<p><img src="https://i.imgur.com/I4F6tov.jpg" alt="image6" />
+Home page showing the status of the available washing machines</p>
+
+<p><img src="https://i.imgur.com/INMI6kc.jpg" alt="image7" />
+Screenshots of our mobile web app and text message notification of an anonymous​ user</p>
+
+<p>The system is built with</p>
+<ul>
+  <li>Angular.js 1 - web framework</li>
+  <li>MySQL - database</li>
+  <li>Gulp, Bower - packaging, building, development tool</li>
+  <li>Node.js, Express.js - backend services: subscription, sign-in/log-in</li>
+  <li>Twilio - text message service</li>
+</ul>
+
+<h3 id="user-feedback">User Feedback</h3>
+<p><img src="https://i.imgur.com/B1CAnbZ.jpg" alt="image8" /></p>
+
+<p>We pinned up a QR code for residents to download and use our app with a line explaining the application on the whiteboard and asked them to leave their feedback. Some feedback we received were:</p>
+
+<blockquote>
+  <p>Oh this is so amazing</p>
+
+  <p>Can you build this for the third floor too?</p>
+</blockquote>
+
+<p><a href="./">Back to Home</a></p>
 
 
       </section>
