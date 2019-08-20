@@ -74,7 +74,7 @@ See my projects here: [KeepItReal](./keep-it-real.html), [HackTheLibrary](./hack
 
 - Created a web applet that generates the texture of an input image to fill bigger specified dimensions using OpenProcessing and OpenCV
 - Implemented adding randomness to the output image to give the output synthesis a more natural look
-- [Demo](https://i.imgur.com/LeEVLDu.gif)
+- [Demo](https://i.imgur.com/c7CQo14.gif)
 
 <dt>Movie Dialogues Visualization - Atlanta, GA</dt>
 

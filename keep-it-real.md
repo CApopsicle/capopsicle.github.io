@@ -29,4 +29,4 @@ On the right, we have the themes present in the movie. Clicking a theme, filters
 
 Using overview and then detail, our visualization highlights these movie characteristics and gives our users insight into their favorite movies as well as overall trends.
 
-[Back](./)
+[Back to Home](./)

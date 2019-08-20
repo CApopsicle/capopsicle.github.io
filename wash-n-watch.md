@@ -71,4 +71,4 @@ We pinned up a QR code for residents to download and use our app with a line exp
 >
 > Can you build this for the third floor too?
 
-[Back](./)
+[Back to Home](./)

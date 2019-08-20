@@ -93,4 +93,4 @@ Built with...
 - Gulp, Bower - packaging, building, development tool
 - D3 - SVG interaction
 
-[Back](./)
+[Back to Home](./)
