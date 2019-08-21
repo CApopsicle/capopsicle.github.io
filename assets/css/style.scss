@@ -4,7 +4,7 @@
 @import 'jekyll-theme-leap-day';
 
 header {
-  background: rgba(28, 28, 233, 0.678);
+  background: #393E41;
 }
 
 #github-logo {
@@ -25,4 +25,10 @@ header {
   margin-top: 6px;
   margin-left: -275px;
   background: url(../images/social-linkedin-logo.svg);
+}
+
+.back-to-home {
+  margin: 0px;
+  float: right;
+  font-size: 12px;
 }

@@ -343,11 +343,15 @@ nav {
 
 footer {
   width:300px;
+  height:60px;
   position: absolute;
   left:50%;
   margin-left:-293px;
-  bottom:-48px;
+  bottom:-75px;
   line-height: 16px;
+  p {
+    margin-bottom: 0px;
+  }
 }
 
 @media print, screen and (max-width: 1060px) {
