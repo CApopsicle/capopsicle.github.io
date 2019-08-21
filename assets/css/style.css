@@ -784,11 +784,14 @@ nav {
 
 footer {
   width: 300px;
+  height: 60px;
   position: absolute;
   left: 50%;
   margin-left: -293px;
-  bottom: -48px;
+  bottom: -75px;
   line-height: 16px; }
+  footer p {
+    margin-bottom: 0px; }
 
 @media print, screen and (max-width: 1060px) {
   div.wrapper {
@@ -907,7 +910,7 @@ footer {
     bottom: auto;
     width: auto; } }
 header {
-  background: rgba(28, 28, 233, 0.678); }
+  background: #393E41; }
 
 #github-logo {
   position: fixed;
@@ -926,3 +929,8 @@ header {
   margin-top: 6px;
   margin-left: -275px;
   background: url(../images/social-linkedin-logo.svg); }
+
+.back-to-home {
+  margin: 0px;
+  float: right;
+  font-size: 12px; }
