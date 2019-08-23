@@ -7,7 +7,7 @@ I am a master student at Georgia Tech, majoring in computer science, specializin
 
 My aspiration is to become a master in both design and engineering field. I love being creative, making creations from 0 to 1 on my own, and coding. Working closely with designers, I love interface development the most. I had experiences working as a frontend engineer with substantial knowledge about JavaScript, CSS, and HTML, and I like challenging myself to build interfaces with complex user interactions and manipulations.
 
-See my projects here: [KeepItReal](./keep-it-real.html), [HackTheLibrary](./hack-the-library.html), [WashNWatch](./wash-n-watch.html)
+See my projects here: [Texture Synthesis](https://i.imgur.com/c7CQo14.gif), [KeepItReal](./keep-it-real.html), [HackTheLibrary](./hack-the-library.html), [WashNWatch](./wash-n-watch.html)
 
 * * *
 
@@ -27,6 +27,7 @@ See my projects here: [KeepItReal](./keep-it-real.html), [HackTheLibrary](./hack
 
 - Master of Science in Computer Science **(Degree anticipated May 2020)**
 - Courses: Information Visualization, Design&Analysis: Algorithms, Human-Computer Interaction, Computational Photography, Machine Learning
+- **Teaching Assistant** of CS4460 Information Visualization
 
 <dt>National Taiwan University (NTU) -  Taipei, Taiwan</dt>
   
@@ -83,6 +84,7 @@ See my projects here: [KeepItReal](./keep-it-real.html), [HackTheLibrary](./hack
 - Created a visualization allowing users to explore conversational themes and conversation ratios between sexes across decades and genres
 - Preprocessed the data using Python, generated questions and hypotheses about the dataset and verified them by Tableau
 - Rated as one of the top projects in class and became a sampler that the professor wants to show off on his website to future classes
+- [Project Detail](./keep-it-real.html)
 
 <dt>Hack The Library - Taipei, Taiwan</dt>
 
@@ -90,12 +92,14 @@ See my projects here: [KeepItReal](./keep-it-real.html), [HackTheLibrary](./hack
 
 - Reformed and developed the user interface of the seat arrangement system of studying area in NTU’s library by D3.js and SVG, making the interface more informative and intuitive
 - Conducted user researches with a team, including interviewing users and collecting 700+ questionnaires
+- [Project Detail](./hack-the-library.html)
 
 <dt>Washing machine monitoring and notifying system - Taipei, Taiwan</dt>
 
 ######  Dec. 2015 - Feb. 2016
 
 - Designed a web app that displays washing machine status and implemented signup, subscription and text message notifications functions for 400 residents in the dorm
+- [Project Detail](./wash-n-watch.html)
 
 * * *
 
