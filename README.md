@@ -114,3 +114,7 @@ ERROR:  While executing gem ... (Gem::FilePermissionError)
 You don't have write permissions for the /Library/Ruby/Gems/2.3.0 directory.
 ```
 try change ruby version: https://github.com/rbenv/rbenv/issues/938
+
+
+- `script/cibuild`
+- `live-server _site`
