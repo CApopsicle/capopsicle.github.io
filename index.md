@@ -58,6 +58,13 @@ See my projects here: [Texture Synthesis](./texture-synthesis.html), [KeepItReal
 - Created Vue.js open source UI components and wrote tests for them using Jest with code coverage higher than 95%, [vue-owl-ui](https://github.com/cepave-f2e/vue-owl-ui)
 - Mentored a new junior colleague to learn front end and JavaScript development skills, empowering him to contribute new components
 
+<dt>Georgia Institute of Technology - Teaching Assistant - Atlanta, GA</dt>
+
+######  Aug. 2019 - present
+
+- TAing class CS4460 Information Visualization
+- Grading students' reports and guiding students to do coding assignment
+
 <dt>MediaTek - Software Engineer Intern - Taipei, Taiwan</dt>
 
 ######  Jul. 2015 - Aug. 2015
