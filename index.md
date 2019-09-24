@@ -62,8 +62,8 @@ See my projects here: [Texture Synthesis](./texture-synthesis.html), [KeepItReal
 
 ######  Aug. 2019 - present
 
-- TAing class CS4460 Information Visualization
-- Grading students' reports and guiding students to do coding assignment
+- TAing class CS4460 Information Visualization, grade students' reports and guide students to do coding assignment
+- Give coding lectures and explain coding examples in class
 
 <dt>MediaTek - Software Engineer Intern - Taipei, Taiwan</dt>
 
