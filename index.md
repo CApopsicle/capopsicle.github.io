@@ -7,7 +7,7 @@ I am a master student at Georgia Tech, majoring in computer science, specializin
 
 My aspiration is to become a master in both design and engineering field. I love being creative, making creations from 0 to 1 on my own, and coding. Working closely with designers, I love interface development the most. I had experiences working as a frontend engineer with substantial knowledge about JavaScript, CSS, and HTML, and I like challenging myself to build interfaces with complex user interactions and manipulations.
 
-See my projects here: [Texture Synthesis](./texture-synthesis.html), [KeepItReal](./keep-it-real.html), [HackTheLibrary](./hack-the-library.html), [WashNWatch](./wash-n-watch.html)
+See my projects here: [Bimanual Interactions for Tablet Note-taking app](./note-taking-app.html), [Texture Synthesis](./texture-synthesis.html), [KeepItReal](./keep-it-real.html), [HackTheLibrary](./hack-the-library.html), [WashNWatch](./wash-n-watch.html)
 
 * * *
 
