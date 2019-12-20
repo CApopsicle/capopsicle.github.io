@@ -56,7 +56,7 @@ Figure 3: Create a selection, tap in bounds of the dashed rectangle and then mov
 The new copy function expands this basic selection functionality and works similarly to fanning cards out on a table. Once making a normal selection, copy and paste can be performed. The user can place the stylus onto the item being copied, and as they hold the stylus down, a finger can take and drag the object to the side. Copies of the drawing are stamped in increments and follow the path that the finger moves in. The longer and farther the item is dragged, the more copies are made. If the stylus drags out in a large "S" shape, then the copies will be stamped out in this "S" shape on the document, which is demonstrated in Figure 4.
 
 ![Figure 4](https://i.imgur.com/3AmH5Zy.jpg)
-Figure 4: Multitouch copy and paste: the stylus holds onto the selected item and the non-dominant hand index finger drags along the gray line, making copies of the selected item along the trajectory.
+Figure 4: Bimanual copy and paste: the stylus holds onto the selected item and the non-dominant hand index finger drags along the gray line, making copies of the selected item along the trajectory.
 
 Once copies are made and when the user lets go, all objects created will be left selected. This makes it easy for users to take their fingers or the stylus and rearrange each copy individually onto the canvas to their desired location. When the user is done rearranging, they can simply tap onto a not-active portion of the canvas (outside of any bounding box drawn) and deselect all the drawings.
 
