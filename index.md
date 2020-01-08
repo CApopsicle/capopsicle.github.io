@@ -7,7 +7,12 @@ I am a master student at Georgia Tech, majoring in computer science, specializin
 
 My aspiration is to become a master in both design and engineering field. I love being creative, making creations from 0 to 1 on my own, and coding. Working closely with designers, I love interface development the most. I had experiences working as a frontend engineer with substantial knowledge about JavaScript, CSS, and HTML, and I like challenging myself to build interfaces with complex user interactions and manipulations.
 
-See my projects here: [Bimanual Interactions for Tablet Note-taking app](./note-taking-app.html), [Texture Synthesis](./texture-synthesis.html), [KeepItReal](./keep-it-real.html), [HackTheLibrary](./hack-the-library.html), [WashNWatch](./wash-n-watch.html)
+See my projects here: 
+- [Bimanual Interactions for Tablet Note-taking app](./note-taking-app.html) 
+- [Texture Synthesis](./texture-synthesis.html) 
+- [KeepItReal](./keep-it-real.html) 
+- [HackTheLibrary](./hack-the-library.html) 
+- [WashNWatch](./wash-n-watch.html)
 
 * * *
 
@@ -25,8 +30,8 @@ See my projects here: [Bimanual Interactions for Tablet Note-taking app](./note-
 
 ###### Aug. 2018 - present
 
-- Master of Science in Computer Science **(Degree anticipated May 2020)**
-- Courses: Information Visualization, Design&Analysis: Algorithms, Human-Computer Interaction, Computational Photography, Machine Learning
+- Master of Science in Computer Science, Human-Computer Interaction Specialization **(Degree anticipated May 2020)**; GPA: 3.4/4.0
+- Courses: Information Visualization, Computational Photography, Principles of UI Software, Machine Learning, Design&Analysis: Algorithms
 - **Teaching Assistant** of CS4460 Information Visualization
 
 <dt>National Taiwan University (NTU) -  Taipei, Taiwan</dt>
@@ -62,8 +67,8 @@ See my projects here: [Bimanual Interactions for Tablet Note-taking app](./note-
 
 ######  Aug. 2019 - present
 
-- TAing class CS4460 Information Visualization, grade students' reports and guide students to do coding assignment
-- Give coding lectures and explain coding examples in class
+- Taught class CS4460 Information Visualization, graded students' reports and guided students to do coding assignment at office hours
+- Gave coding lectures about D3.js and explained coding examples in class
 
 <dt>MediaTek - Software Engineer Intern - Taipei, Taiwan</dt>
 
@@ -75,6 +80,14 @@ See my projects here: [Bimanual Interactions for Tablet Note-taking app](./note-
 * * *
 
 ### Projects
+
+<dt>Bimanual Interactions for Tablet Note-taking app - Atlanta, GA</dt>
+
+######  Aug. 2019 - Dec. 2019
+
+- Defined bimanual interactions for note-taking apps on Android tablets, aiming to allow the non-dominant hand to perform touch commands
+- Implemented thumb tool menu for non-dominant hand, pen, eraser, selection tool, multi-touch commands, and bimanual copy and paste
+- [Project Detail](./note-taking-app.html)
 
 <dt>Texture Synthesis - Atlanta, GA</dt>
 
