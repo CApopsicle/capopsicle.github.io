@@ -3,4 +3,5 @@
 set -e
 
 gem install bundler
+# sudo gem install bundler --user-install
 bundle install
