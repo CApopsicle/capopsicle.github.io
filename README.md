@@ -118,6 +118,7 @@ try change ruby version: https://github.com/rbenv/rbenv/issues/938
 
 - `script/cibuild`
 - `live-server _site`
+- `sudo gem install bundler --user-install `
 
 ```
 script/cibuild: /usr/local/bin/bundle: /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby: bad interpreter: No such file or directory
