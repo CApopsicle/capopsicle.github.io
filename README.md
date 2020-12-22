@@ -113,7 +113,8 @@ The theme contains a minimal test suite, to ensure a site with the theme would b
 ERROR:  While executing gem ... (Gem::FilePermissionError)
 You don't have write permissions for the /Library/Ruby/Gems/2.3.0 directory.
 ```
-try change ruby version: https://github.com/rbenv/rbenv/issues/938
+try change ruby version: https://github.com/rbenv/rbenv/issues/938,
+such as : `rbenv install 2.6.0`
 
 
 - `script/cibuild`
