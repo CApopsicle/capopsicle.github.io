@@ -1,10 +1,10 @@
 title: Kelly Hsiao-Ching Su
-description: Kelly's a CS master student seeking 2020 new grad position
+description:
 show_downloads: true
 google_analytics: true
 theme: jekyll-theme-leap-day
 default:
-      resume: ./2020_NewGrad_HsiaoChingSu_Gatech.pdf
+      resume: ./Hsiao-Ching_Su_resume.pdf
 github:
       is_project_page: true
       owner_url: https://github.com/CApopsicle

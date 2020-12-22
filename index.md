@@ -3,9 +3,13 @@ layout: default
 ---
 
 Hello, I am Kelly.
-I am a master student at Georgia Tech, majoring in computer science, specializing in human-computer interaction. 
+Having an aspiration to be a hybrid of an engineer and a designer, I create innovative products and tools with good usability to empower people.
 
-My aspiration is to become a master in both design and engineering field. I love being creative, making creations from 0 to 1 on my own, and coding. Working closely with designers, I love interface development the most. I had experiences working as a frontend engineer with substantial knowledge about JavaScript, CSS, and HTML, and I like challenging myself to build interfaces with complex user interactions and manipulations.
+I got my Master's degree in computer science at Georgia Tech, graduated in 2020, specialized in human-computer interaction. 
+
+I love being creative, making creations from 0 to 1 on my own, and coding. Working closely with designers, I love interface development the most. I had experiences working as a frontend engineer with substantial knowledge about JavaScript, CSS, and HTML, and I like challenging myself to build interfaces with complex user interactions and manipulations.
+
+My current career focus is full-stack and front-end, and I'm now under an H1B visa. 
 
 See my projects here: 
 - [Bimanual Interactions for Tablet Note-taking app](./note-taking-app.html) 
@@ -19,7 +23,7 @@ See my projects here:
 ### Skill & Language Proficiency
 
 - Programing: JavaScript, Python, Java, R(statistical)
-- Framework & Tool: React.js, Vue.js, D3.js, Node.js, Express.js, Jest, webpack, MongoDB, MySQL, OpenCV, selenium, Jenkins, git
+- Framework & Tool: React, Redux, Vue, D3.js, Node.js, Jest, Webpack, Java Swing, Android, SQL, OpenCV, OpenGL, Selenium, Jenkins, git
 - Software: Illustrator, Photoshop, Adobe XD, Sketch, Tableau
 
 * * *
@@ -28,10 +32,10 @@ See my projects here:
 
 <dt>Georgia Institute of Technology - Atlanta, GA</dt>
 
-###### Aug. 2018 - present
+###### Aug. 2018 - May 2020
 
-- Master of Science in Computer Science, Human-Computer Interaction Specialization **(Degree anticipated May 2020)**; GPA: 3.4/4.0
-- Courses: Information Visualization, Computational Photography, Principles of UI Software, Machine Learning, Design&Analysis: Algorithms
+- Master of Science in Computer Science, Human-Computer Interaction Specialization; GPA: 3.5/4.0
+- Courses: IInformation Visualization, Computational Photography, Principles of UI Software, ML, Design & Analysis: Algorithms, Computer Graphics
 - **Teaching Assistant** of CS4460 Information Visualization
 
 <dt>National Taiwan University (NTU) -  Taipei, Taiwan</dt>
@@ -39,43 +43,49 @@ See my projects here:
 ######  Sep. 2012 - Jun. 2016
 
 -   Bachelor of Business Administration in Information Management; GPA: 3.43/4.0
--   Courses: Programming Languages, Modern Statistical Learning, Fundamental Object Oriented Programming, User Experience Design
+-   Courses: Programming Languages, Programming Design & Data Structures, Fundamental OOP, Operating Systems, UX Design
 
 * * *
 
 ### Experience
 
+<dt>The Climate Corporation - Software Engineer - Seattle, WA</dt>
+
+######  Jul. 2020 - Present
+
+- Led new testing framework migration by configuring and implementing tests in two frameworks, building CICD pipeline, and evaluating five frameworks
+- Maintained team’s test repository by collaborating with other teams to fix testing dependencies and serving as owner for code reviews
+- Proposed strategy to improve test reliability and coverage; developed plan to remove external dependency to improve stability and flakiness
+- Reduced time to route and root cause QA tickets by teaching QA to write more precise tickets
+
 <dt>The Climate Corporation - Software Engineer Intern - San Francisco, CA</dt>
 
 ######  May 2019 - Aug. 2019
 
-- Implemented end to end tests for the shopping cart, checking out, and purchasing process using webdriverio
-- Accomplished all the burndown test cases by writing unit tests using Jest and grasping how features were implemented in a product
-- Built a new end to end test project from scratch for a web app product, and incorporated automated test runs into CICD pipeline
-- Developed test metrics and notifications on Jenkins and Slack using Bash, and made it as an essential reporting tool for the team
+- Implemented end-to-end tests for shopping cart and checkout flow using webdriverio; completed unit test coverage with Jest
+- Built end-to-end testing project from scratch for knowledge base web app and incorporated automated test runs into CICD pipeline
+- Developed testing metrics and notifications on Jenkins and Slack using Bash, which became an essential reporting tool for the team
 
 <dt>21 Vianet Group Inc. - Front End Engineer - Taipei, Taiwan</dt>
 
 ######  Jul. 2016 - Jun. 2017
 
-- Developed a monitoring platform that collects data from endpoint machines, raise alarm messages, group and filter entities
-- Built visualization tools for CDN infrastructure metrics helping operation engineers to monitor the entities and investigate alerts
-- Created Vue.js open source UI components and wrote tests for them using Jest with code coverage higher than 95%, [vue-owl-ui](https://github.com/cepave-f2e/vue-owl-ui)
-- Mentored a new junior colleague to learn front end and JavaScript development skills, empowering him to contribute new components
+- Developed a monitoring platform to collect data from endpoint machines, raise alarm messages, and group and filter entities
+- Built visualization tools for CDN infrastructure metrics to help operation engineers monitor entities and investigate alerts
+- Created open-source Vue.js UI components with >95% code coverage using Jest, [vue-owl-ui](https://github.com/cepave-f2e/vue-owl-ui)
+- Mentored junior colleague on front-end and JavaScript development skills to contribute new UI components
 
 <dt>Georgia Institute of Technology - Teaching Assistant - Atlanta, GA</dt>
 
 ######  Aug. 2019 - present
 
-- Taught class CS4460 Information Visualization, graded students' reports and guided students to do coding assignment at office hours
-- Gave coding lectures about D3.js and explained coding examples in class
+- Taught Information Visualization course (CS4460), gave live coding lectures about D3.js, graded assignments, and held office hours
 
 <dt>MediaTek - Software Engineer Intern - Taipei, Taiwan</dt>
 
 ######  Jul. 2015 - Aug. 2015
 
-- Developed a dashboard for MediaTek Cloud Sandbox (MCS), providing a convenient interface for dynamically modifying static content on MCS’s introduction and tutorial page
-- Designed tutorials for connecting MediaTek’s single-board microcontrollers (Linkit One and Linkit 7681) to MCS
+- Developed internal tool to dynamically modify MediaTek Cloud Sandbox (MCS) pages; wrote tutorials to connect microcontrollers to MCS
 
 * * *
 
@@ -85,33 +95,33 @@ See my projects here:
 
 ######  Aug. 2019 - Dec. 2019
 
-- Defined bimanual interactions for note-taking apps on Android tablets, aiming to allow the non-dominant hand to perform touch commands
-- Implemented thumb tool menu for non-dominant hand, pen, eraser, selection tool, multi-touch commands, and bimanual copy and paste
+- Defined bimanual interactions for note-taking app on Android tablets to allow the non-dominant hand to perform touch commands
+- Implemented thumb tool menu for non-dominant hand; pen, eraser, and selection tools; multi-touch commands; and bimanual copy and paste
 - [Project Detail](./note-taking-app.html)
 
 <dt>Texture Synthesis - Atlanta, GA</dt>
 
 ######  Jan. 2019
 
-- Created a web applet that generates the texture of an input image to fill bigger specified dimensions using OpenProcessing and OpenCV
-- Implemented adding randomness to the output image to give the output synthesis a more natural look
+- Created a web applet to generate a texture from an input image to fill larger dimensions using OpenProcessing and OpenCV
+- Implemented feature to add randomness to the output image to make the synthesis look more natural
 - [Demo](https://i.imgur.com/c7CQo14.gif)
 
 <dt>Movie Dialogues Visualization - Atlanta, GA</dt>
 
 ######  Aug. 2018 - Dec. 2018
 
-- Created a visualization allowing users to explore conversational themes and conversation ratios between sexes across decades and genres
-- Preprocessed the data using Python, generated questions and hypotheses about the dataset and verified them by Tableau
-- Rated as one of the top projects in class and became a sampler that the professor wants to show off on his website to future classes
+- Created a visualization tool to let users explore conversation ratios between sexes and conversational themes across decades and genres
+- Preprocessed data using Python, generated questions and hypotheses about the dataset, and verified them with Tableau
+- Rated as one of the top projects in class and became a model for the professor’s future classes
 - [Project Detail](./keep-it-real.html)
 
 <dt>Hack The Library - Taipei, Taiwan</dt>
 
 ######  Feb. 2015 - Dec. 2015
 
-- Reformed and developed the user interface of the seat arrangement system of studying area in NTU’s library by D3.js and SVG, making the interface more informative and intuitive
-- Conducted user researches with a team, including interviewing users and collecting 700+ questionnaires
+- Designed and developed an intuitive and informative map view UI for the library study area’s seat arrangement system with D3.js and SVG
+- Conducted user research, including interviewing users and collecting and analyzing 700+ questionnaires
 - [Project Detail](./hack-the-library.html)
 
 <dt>Washing machine monitoring and notifying system - Taipei, Taiwan</dt>
