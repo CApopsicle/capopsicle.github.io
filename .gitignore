@@ -1,3 +1,21 @@
-.sass-cache
-Gemfile.lock
+# Ruby-related
+*.gem
+.bundle/
+vendor/
+.rbenv-version
+
+# macOS system files
 .DS_Store
+
+# Jekyll generated site output
+_site/
+.sass-cache/
+.jekyll-cache/
+
+# Lock files
+Gemfile.lock
+
+# VSCode and editor-specific files (optional but useful)
+.vscode/
+.idea/
+*.swp

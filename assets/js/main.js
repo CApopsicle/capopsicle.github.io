@@ -19,11 +19,24 @@ $(function() {
     $("nav ul li:first-child a").parent().addClass("active");
   });
 
+  // Check if there's an anchor in the URL and scroll to it
+  var hash = window.location.hash;
+  if (hash) {
+    var target = $(hash);
+    if (target.length) {
+      var position = target.offset().top - 190;
+      $("html, body").animate({scrollTop: position}, 400);
+      $("nav ul li a").parent().removeClass("active");
+      $("nav ul li a[href='" + hash + "']").parent().addClass("active");
+    }
+  }
+
   $("nav ul li").on("click", "a", function(event) {
     var position = $($(this).attr("href")).offset().top - 190;
     $("html, body").animate({scrollTop: position}, 400);
     $("nav ul li a").parent().removeClass("active");
     $(this).parent().addClass("active");
+    history.pushState(null, null, $(this).attr("href")); // push the new URL with an anchor to history
     event.preventDefault();
   });
 
